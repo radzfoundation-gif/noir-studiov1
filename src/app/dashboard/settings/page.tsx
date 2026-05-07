@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import {
   User, Mail, Bell, ShieldAlert, Trash2, Settings, Puzzle,
   BarChart3, CreditCard, Receipt, Users, HelpCircle, MessageCircle,
-  Crown, Zap, Sparkles, Check, ExternalLink, Chrome, ArrowLeft,
+  Crown, Zap, Sparkles, Check, ExternalLink, Globe, ArrowLeft,
   Palette, Camera, Clapperboard, Box, Lightbulb, Wand2,
 } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -305,7 +305,7 @@ export default function SettingsPage() {
             className="bg-white rounded-2xl border border-black/[0.06] p-5 flex items-center gap-4"
           >
             <div className="w-10 h-10 bg-[#f5f5f7] rounded-xl flex items-center justify-center shrink-0">
-              <Chrome className="w-5 h-5 text-[#5E6470]" />
+              <Globe className="w-5 h-5 text-[#5E6470]" />
             </div>
             <div className="flex-1 min-w-0">
               <div className="flex items-center gap-2 mb-0.5">
